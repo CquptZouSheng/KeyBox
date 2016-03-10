@@ -26,7 +26,9 @@ public class InformationActivity extends AppCompatActivity {
         password= (TextView) findViewById(R.id.Password);
         remark= (TextView) findViewById(R.id.Remark);
         data= (TextView) findViewById(R.id.Data);
+        name.setSelected(true);
         name.setText(intent.getStringExtra("name"));
+
         account.setText(intent.getStringExtra("account"));
         password.setText(intent.getStringExtra("password"));
         remark.setText(intent.getStringExtra("remark"));
